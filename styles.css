@@ -2,34 +2,24 @@
 html, body {
   height: 100%;
 }
-
-
-
 h2 {
   font-weight: bold;
   margin-bottom: 32px;
   font-size: 24px;
 }
-
 // Select Menu & Input Fields
 .vd-field {
     margin-bottom: 20px;
 }
-
-
 .vd-label {
     display: inline-block;
     margin-bottom: 5px;
     font-weight: 700;
     font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
-
-
-
 .vd-select-container {
     position: relative;
-    background-color: #FFFFFF;
-    width: 100%;
+    width: 20%;
     display: block;
     border-radius: 3px;
 }
@@ -40,16 +30,9 @@ h2 {
     padding-right: 36px;
     border-radius: 3px;
     font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-
-
-
-
-.vd-select-arrows {
-  position: absolute;
-  top: 1px;
-  right: 1px;
-  height: 42px;
-  width: 37px;
 }
+
+
 
 .vd-input {
     box-sizing: border-box;
@@ -68,12 +51,27 @@ h2 {
     -webkit-transition-property: border-color, box-shadow;
     transition-property: border-color, box-shadow;
 }
-
+.vd-date {
+    // display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
 
 // Buttons
-
+button {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 15px 45px;
+  font-size: 48px;
+  font-family: "Bitter",serif;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+}
 .vd-button-small {
-  font-family: lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   font-size: 15px;
   -webkit-font-smoothing: auto;
   font-weight: 300;
@@ -91,10 +89,14 @@ h2 {
 
 .vd-color-primary {
   background-color: #44B773;
+  width: 100px;
+  
 }
 
 .vd-color-secondary {
   background-color: #446A81;
+   width: 100px;
+  transparent: light;
 }
 
 
@@ -116,4 +118,10 @@ h2 {
 .vd-modal-bottom {
   display: flex;
   justify-content: flex-end;
+}
+.vd-button-sized {
+	border: 3px;
+	width: 400px;
+	height: 600px;
+
 }

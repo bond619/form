@@ -1,5 +1,6 @@
 // Basic Styles
-html, body {
+html,
+body {
   height: 100%;
 }
 h2 {
@@ -9,53 +10,56 @@ h2 {
 }
 // Select Menu & Input Fields
 .vd-field {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .vd-label {
-    display: inline-block;
-    margin-bottom: 5px;
-    font-weight: 700;
-    font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 .vd-select-container {
-    position: relative;
-    width: 20%;
-    display: block;
-    border-radius: 3px;
+  position: relative;
+  width: 20%;
+  display: block;
+  border-radius: 3px;
 }
 
 .vd-select {
-    border: 1px solid #D7D7D7;
-    padding: 12px;
-    padding-right: 36px;
-    border-radius: 3px;
-    font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-
+  border: 1px solid #d7d7d7;
+  padding: 12px;
+  padding-right: 36px;
+  border-radius: 3px;
+  font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-;
 }
 
-
+.output-date {
+  display: flex;
+  justify-content: center;
+}
 
 .vd-input {
-    box-sizing: border-box;
-    font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    width: 100%;
-    padding: 12px;
-    box-shadow: none;
-    border: 1px solid #D7D7D7;
-    border-radius: 3px;
-    outline: none;
-    background-color: #FFFFFF;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-    -webkit-transition-property: border-color, box-shadow;
-    transition-property: border-color, box-shadow;
+  box-sizing: border-box;
+  font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  width: 100%;
+  padding: 12px;
+  box-shadow: none;
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  outline: none;
+  background-color: #ffffff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transition-property: border-color, box-shadow;
+  transition-property: border-color, box-shadow;
 }
 .vd-date {
-    // display: inline-block;
-    margin-bottom: 5px;
-    font-weight: 700;
-    font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  // display: inline-block;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 // Buttons
@@ -64,21 +68,20 @@ button {
   margin: 0 10px 0 0;
   padding: 15px 45px;
   font-size: 48px;
-  font-family: "Bitter",serif;
+  font-family: "Bitter", serif;
   line-height: 1.8;
   appearance: none;
   box-shadow: none;
   border-radius: 0;
 }
 .vd-button-small {
-
   font-size: 15px;
   -webkit-font-smoothing: auto;
   font-weight: 300;
-  background-color: #44B773;
+  background-color: #44b773;
   border-radius: 3px;
   border: 1px solid transparent;
-  color: #FFFFFF;
+  color: #ffffff;
   min-width: 150px;
   padding: 12px 20px;
   text-align: center;
@@ -88,27 +91,25 @@ button {
 }
 
 .vd-color-primary {
-  background-color: #44B773;
+  background-color: #44b773;
   width: 100px;
-  
 }
 
 .vd-color-secondary {
-  background-color: #446A81;
-   width: 100px;
+  background-color: #446a81;
+  width: 100px;
   transparent: light;
 }
 
-
-
 .vend-iframe {
-  width: 600px;
-  height: 400px;
-  background-color: #F5F5F5;
+  width: 1000px;
+  height: 450px;
+  background-color: #f5f5f5;
   border-radius: 5px;
   margin: 5% auto;
+  display: flex;
+  justify-content: center;
 }
-
 
 .vd-header {
   display: flex;
@@ -120,8 +121,7 @@ button {
   justify-content: flex-end;
 }
 .vd-button-sized {
-	border: 3px;
-	width: 400px;
-	height: 600px;
-
+  border: 3px;
+  width: 400px;
+  height: 600px;
 }

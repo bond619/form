@@ -1,18 +1,35 @@
+<!DOCTYPE html>
+<!Author @Jason Bond>
+
 <html>
 <link href='https://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" type="text/css" href="styles.css">
+	
+<meta charset="UTF-8">
+<body>
+  <div class="vend-iframe">
+    <div class="vd-modal-container">
+      <div class="vd-modal-top">
+        <h2>InterFace for A Calender Input</h2>
+
+        <div class="vd-date">
 
 
-<div class="vend-iframe">
-  <div class="vd-modal-container">
-    <div class="vd-modal-top">
-      <h2>InterFace for Inputs</h2>
-      <div class="vd-field">
-        <div class="vd-label">Select Month</div>
-        <div class="vd-select-container">
-          <select class="vd-select">
+          <p>You Have selected the month of
+            <div id="content-one"></div>
+            and on the date of
+
+            <div id="content-two"></div>
+
+          </p>
+
+        </div>
+        <div class="vd-field">
+          <div class="vd-label">Select Month</div>
+          <div class="vd-select-container">
+            <select class="vd-select">
    <option value="Jan">Jan</option>
     <option value="Feb">Feb</option>
     <option value="March">March</option>
@@ -26,32 +43,37 @@
     <option value="Nov">Nov</option>
     <option value="Dec">Dec</option>
           </select>
-          
-         
-          
+
+
+          </div>
         </div>
-      </div>
-       <div class="vd-date">Select Date</div>
-      <div class="vd-field">
-        
-        <div class="vd-select-container">
-          <div class="vd-value">
-            <input class="vd-input"   placeholder="Date">
+        <div class="vd-date">Input Date</div>
+        <div class="vd-field">
+
+          <div class="vd-select-container">
+            <div class="vd-value">
+              <input class="vd-input" placeholder="Date">
+            </div>
           </div>
         </div>
       </div>
-    </div>
-	  
-    <div class="vd-modal-bottom">
-		
-	<div class="vd-button-sized">	 
-      <button class="vd-button-small vd-color-secondary">Cancel</button>
-      <button class="vd-button-small vd-color-primary">Next</button>
-		 </div>
+
+      <div class="vd-modal-bottom">
+
+        <div class="vd-button-sized">
+
+          <button class="cancel vd-color-secondary vd-button-small ">Cancel</button>
+
+
+          <button type="button" id="theNextBtn" class="vd-color-primary vd-button-small next">Next</button>
+        </div>
+      </div>
+
+
     </div>
   </div>
-</div>
-</div>
+  </div>
 
+</body>
 
 </html>
